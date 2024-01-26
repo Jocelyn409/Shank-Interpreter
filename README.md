@@ -6,3 +6,5 @@ Shank interpreter. Contains bugs, but works. A .txt file with Shank code (provid
 
         for a from 1 to 10
             write "hello world!"
+            
+This was a school assignment for one of my classes, ICSI311.
