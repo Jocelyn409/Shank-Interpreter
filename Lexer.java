@@ -8,7 +8,7 @@ public class Lexer extends Exception {
     public ArrayList<Token> tokenList = new ArrayList<>();
     public HashMap<String, Token.tokenType> knownWords = new HashMap<>();
 
-    StringBuilder tokenValue = new StringBuilder();
+    private StringBuilder tokenValue = new StringBuilder();
     private final String singularPunctuation = "[]()*/-+=;,";
     private final String multiPunctuation = "><:";
     private int currentLine = 0;
